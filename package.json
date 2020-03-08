@@ -1,6 +1,9 @@
 {
   "name": "web_development",
-  "dependencies": {
+  "scripts": {
+    "start": "webpack"
+  },
+  "devDependencies": {
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11"
   }
