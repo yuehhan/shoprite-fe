@@ -27,7 +27,6 @@ body{
 }
 
 .middle{
-    border: 1px solid black;
     display: flex;
     justify-content: space-evenly;
 }
