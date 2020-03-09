@@ -56,12 +56,9 @@ body{
     padding-left: 10%;
 }
 
-
-
-
 .bottom{
     text-align: center;
-    background-color: red;
+    background-color: #ED1B2E;
     display: flex;
     list-style-type: none;
     justify-content: flex-start;
@@ -76,4 +73,47 @@ nav{
 }
 nav li{
     border: white 1px solid;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left-footer{
+    display: flex;
+    list-style-type: none;
+    padding: 1%;
+    margin: 1rem;
+}
+.left-footer a{
+    color: white;
+}
+.left-footer li{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.right-footer{
+    display: flex;
+    list-style-type: none;
+    padding: 1%;
+    margin: 1rem;
+}
+
+.right-footer a{
+    color: white;
+}
+
+.right-footer li{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
